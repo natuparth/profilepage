@@ -1,5 +1,23 @@
 <html>
     <head>
+             <style>
+        .img-small{
+                width: 25px;
+                height:25px;
+               float:right;
+               margin-right: 15px;
+               margin-top: 50px; 
+        }
+
+        .list-item{  
+                height:42px;
+                border-style:none;
+                border-radius: 10px;
+                border: 1px solid rgb(0, 0, 0) ;
+        
+        }    
+        
+        </style>
             <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
     <!-- Optional Bootstrap theme -->
@@ -10,16 +28,37 @@
     </head>
     <body>
      
-        <div class="nav navbar-fixed-top" style="background-color:mediumspringgreen;height:90px">
-                <div style="margin-left:500px;margin-top:40px;height:20px;width:500px"> 
+        <div class="nav navbar-fixed-top" style="position:relative;background-color:rgb(250, 150, 0);height:80px">
+        <ul class="list-inline">
+              <li>Home</li>
+              <li>About Me</li>
+              <li >Curriculum Vitae</li>
+         </ul>       
+        <img class="img-small" src="fb.png" >
+        <img class="img-small" src="gmail.png" >
+        <img class="img-small" src="linkedin.png" >
+                
+        
+        </div>        
+        <div class="container container-fluid" style="padding:0px;background-color:#dbdfd9c7;width:200px;height:600px;position:absolute">
+          <ul class="list-group">
+                  <li class="list-group-item list-item">Home</li>
+                  <li class="list-group-item list-item">Education</li>
+          </ul>        
+                
+                
+        
+        </body>
+</html>
+
+
+
+<!--<img src="parth.jpg" style="margin-left:200px;position:absolute;margin-top:15px;border-radius:50%;width:150px;height:150px">
+                
+                <div style="margin-left:360px;margin-top:40px;height:20px;position:absolute"> 
                         Parth Natu
                          <br>
                          |System Engineer Trainee|Infosys Ltd.
                          </div>      
-                &nbsp;&nbsp;<img src="parth.jpg" style="margin-left:200px;margin-top:15px;border-radius:50%;width:150px;height:150px">
-      
-</div>
-        
-        <div class="container container-fluid" style="background-color: #ffffff"></div>
-        </body>
-</html>
+                &nbsp;&nbsp;
+        </div>-->
