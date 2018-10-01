@@ -13,8 +13,9 @@
     <img class="img-small" src="assets/images/linkedin.png" >
             
     
-    </div>        
-    <div class="container container-fluid" style="padding:0px;float:left;background-color:#dbdfd9c7;width:300px;height:600px;position:absolute">
+    </div> 
+    <div style="display:table-row;">       
+    <div class="container container-fluid" style="display:table-cell;padding:0px;float:left;background-color:#dbdfd9c7;width:300px;height:600px;position:absolute">
       <ul class="list-group">
               <li class="list-group-item list-item">Home</li>
               <li class="list-group-item list-item">Education</li>
@@ -23,19 +24,11 @@
               <li class="list-group-item list-item">Hobbies & Interests</li>
       </ul>        
       </div>      
-     <nav class="navbar bg-inverse" style="height:40px;margin-left: 300px">
-        <div class="container">
-                    <ul class="nav navbar-nav" routerLink="active">
-                                    <li class="nav-item"><a class="nav-link" routerLink="index/home" [routerLinkActive]="['active']">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" routerLink="index/about">About Me</a></li>
-                                   <li class="nav-item"><a class="nav-link" [routerLink]="home">Curriculum Vitae</a></li>
-                                    
-                               </ul>           
-        </div>                        
-      </nav>   
-      <hr>  
-      
+     
+      <div style=" float:left;border:1px solid grey">
+        <router-outlet></router-outlet>    
+        </div>
    </div> 
-   <div style="margin-left:300px;border:1px solid grey">
-   <router-outlet></router-outlet>    
    </div>
+
+    
