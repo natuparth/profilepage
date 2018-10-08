@@ -1,30 +1,12 @@
-<div style="display:table-row;border:1 px solid grey;">
-  
-  <div style="margin-top:10px;margin-left:10px;width:180px;height:210px;display: table-cell">
-    <img src="assets/images/parth.jpg" style="width:160px;height:200px">
-  </div>
-  
-  
-  <div style="float:left;padding:0px;width:inherit;display:inline-block">
-  <div style="height:25px;width:inherit;background:gray">Personal Details</div>
-   <div style="text-align:center;">
-<table>
-  <tr><td id="tabledata"><b>  Name </b></td>
-      <td>:</td>
-     <td id="tablevalue"><b>Parth Natu</b></td>
-  </tr> 
-  <tr><td id="tabledata"><b>  DOB </b></td>
-    <td>:</td>
-      
-    <td id="tablevalue"><b>Jan 01,1997</b></td>
- </tr>  
- <tr><td id="tabledata"><b>  Place of Birth </b></td>
-  <td>:</td>
-      
-  <td id="tablevalue"><b>Chhatarpur</b></td>
-</tr>  
-
-</table>
-</div>
-</div>
-</div>
+<nav class="navbar bg-inverse" style="height:40px;">
+    <div class="container">
+                <ul class="nav navbar-nav" routerLink="active">
+                                <li class="nav-item"><a class="nav-link" routerLink="profileHome" [routerLinkActive]="['active']">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" routerLink="about">About Me</a></li>
+                               <li class="nav-item"><a class="nav-link" routerLink="home">Curriculum Vitae</a></li>
+                                
+                 </ul>           
+    </div>                        
+  </nav>   
+  <hr>  
+  <router-outlet></router-outlet>

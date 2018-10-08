@@ -17,18 +17,19 @@
     <div style="display:table-row;">       
     <div class="container container-fluid" style="display:table-cell;padding:0px;float:left;background-color:#dbdfd9c7;width:300px;height:600px;position:absolute">
       <ul class="list-group">
-              <li class="list-group-item list-item">Home</li>
-              <li class="list-group-item list-item">Education</li>
+              <li class="list-group-item list-item" routerLink="index/home"  >Home</li>
+              <li class="list-group-item list-item" routerLink="education">Education</li>
               <li class="list-group-item list-item">Projects</li>
               <li class="list-group-item list-item">Skills</li>
               <li class="list-group-item list-item">Hobbies & Interests</li>
       </ul>        
       </div>      
      
-      <div style=" float:left;border:1px solid grey">
-        <router-outlet></router-outlet>    
-        </div>
+      
    </div> 
    </div>
+   <div style=" margin-left:305px;float:left;">
+    <router-outlet></router-outlet>    
+    </div>
 
     
