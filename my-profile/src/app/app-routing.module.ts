@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileHomeComponent } from './profile-home/profile-home.component';
 import { EducationComponent } from './education/education.component';
+import {CVComponent} from './cv/cv.component';
 const routes: Routes = [
   { path: '', redirectTo: 'index', pathMatch: 'full'},
   { path: 'index',
@@ -21,6 +22,9 @@ const routes: Routes = [
          },
          {
            path: 'profileHome', component: ProfileHomeComponent
+         },
+         {
+           path: 'cv', component : CVComponent
          }
 
       ]

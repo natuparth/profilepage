@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ProfileHomeComponent } from './profile-home/profile-home.component';
 import { EducationComponent } from './education/education.component';
+import { CVComponent } from './cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EducationComponent } from './education/education.component';
     HomeComponent,
     AboutComponent,
     ProfileHomeComponent,
-    EducationComponent
+    EducationComponent,
+    CVComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, RouterModule
